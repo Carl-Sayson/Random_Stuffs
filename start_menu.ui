@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Starting_Menu</class>
+ <widget class="QWidget" name="Starting_Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>750</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Start</string>
+  </property>
+  <widget class="QLabel" name="BG_Main">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>1</y>
+     <width>998</width>
+     <height>698</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>750</width>
+     <height>500</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1000</width>
+     <height>700</height>
+    </size>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Picture Assets/start_bg.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit_bt">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>470</y>
+     <width>354</width>
+     <height>129</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {border-radius: 20px;}
+
+QPushButton:hover {
+	
+	background-color: rgb(198, 53, 104);
+	}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Picture Assets/buttons_game_exit-removebg-preview.png</normaloff>../Picture Assets/buttons_game_exit-removebg-preview.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>350</width>
+     <height>350</height>
+    </size>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="credits_bt">
+   <property name="geometry">
+    <rect>
+     <x>515</x>
+     <y>332</y>
+     <width>354</width>
+     <height>129</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {border-radius: 20px;}
+
+QPushButton:hover {
+	
+	background-color: rgb(198, 53, 104);
+	}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Picture Assets/buttons_game_credits-removebg-preview.png</normaloff>../Picture Assets/buttons_game_credits-removebg-preview.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>350</width>
+     <height>350</height>
+    </size>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="start_bt">
+   <property name="geometry">
+    <rect>
+     <x>142</x>
+     <y>332</y>
+     <width>354</width>
+     <height>129</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {border-radius: 20px;}
+
+QPushButton:hover {
+	
+	background-color: rgb(198, 53, 104);
+	}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Picture Assets/buttons_game_start-removebg-preview.png</normaloff>../Picture Assets/buttons_game_start-removebg-preview.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>350</width>
+     <height>350</height>
+    </size>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>start_bt</tabstop>
+  <tabstop>credits_bt</tabstop>
+  <tabstop>exit_bt</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
